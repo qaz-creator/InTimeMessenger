@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  position: relative;
+  height: 60px;
+  display: flex;
+  background: rgba(26, 188, 156, 120%);
+  color: white;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 18px;
+  text-shadow: 0 0;
+}
+
+.menu {
+  display: flex;
+  margin: 20px;
+}
+
+.menu > li > a {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0;
+  text-decoration: none;
+}
+
+.leftMenu {
+  display: flex;
+  color: #fff;
+  margin: 20px;
+}
+
+.leftMenu > li {
+  margin: 0 10px;
+}
+
+.leftMenu > li > a {
+  color: #fff;
+}
+
+.leftMenu > li > a.active {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 0;
+  overflow: hidden;
+  font-size: medium;
+  font-weight: bold;
+  background: rgba(26, 188, 156);
+  color: white;
+
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+form h1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.form-input-material {
+  margin: 8px 0;
+}
+.btn {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  font-size: medium;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 1px 6px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.close-btn:hover {
+  background-color: tomato;
+}
+form {
+  z-index: 100000000000;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  transition: all 0.6s;
+}
+.profile-form {
+  top: 50%;
+  z-index: 90000000000000000;
+  background-color: white;
+}
